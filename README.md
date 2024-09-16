@@ -2,43 +2,47 @@
 
 This project is a simple web application built with **ReactJS** and **TailwindCSS**. The main feature of this app is a user-friendly interface that allows the background color of the screen to be changed by clicking on buttons with predefined color options.
 
-## Installation and Setup Instructions
+## Installation
 
-Follow the steps below to set up the project locally:
+To get a local copy up and running, follow these steps:
 
-### 1. Clone the repository
-First, you need to clone the repository from GitHub:
+### Prerequisites
 
-```bash
-git clone https://github.com/yourusername/react-background-changer.git
-```
+- **Node.js**: Make sure you have Node.js installed on your machine. You can download it from [here](https://nodejs.org/).
 
-### 2. Navigate into the project directory
-Once the repository is cloned, navigate into the project folder:
+### Steps
 
-```bash
-cd react-background-changer
-```
+1. Clone the repository:
 
-### 3. Install the required dependencies
-Run the following command to install all necessary packages and dependencies:
+   ```bash
+   git clone https://github.com/your-username/bgChanger.git
+   ```
 
-```bash
-npm install
-```
+2. Navigate to the project directory:
 
-### 4. Run the development server
-After the dependencies are installed, run the development server:
+   ```bash
+   cd bgChanger
+   ```
 
-```bash
-npm start
-```
+3. Install the dependencies:
 
-This will start the application, and it should automatically open in your default web browser at `http://localhost:3000`.
+   ```bash
+   npm install
+   ```
 
-### 5. Build the project for production (Optional)
-If you want to build the project for production, use the following command:
+4. Start the development server:
 
-```bash
-npm run build
-```
+   ```bash
+   npm run dev
+   ```
+
+5. Open the project in your browser by navigating to:
+
+   ```
+   http://localhost:3000
+   ```
+
+## Usage
+
+- The application displays buttons with different colors. By clicking on any button, the background color of the page will change to the respective color.
+- You can easily switch between colors in real-time without refreshing the page.
